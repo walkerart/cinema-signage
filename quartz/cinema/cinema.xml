@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <cinema>
+    <title>Cinema Signage</title>
+    <link>http://walkerart.org/</link>
+    <description>Cinema Signage Feed</description>
+	<views>
+		<state type="one">
+			<slide>
+				<text>CINIMA</text>
+				<background>#FF00AA</background>
+			</slide>
+		</state>
+		<state type="three">
+			<slide>
+				<position>1</position>
+				<type>b</type>
+				<text>TEXT TWO</text>
+				<background>#000000</background>
+			</slide>
+			<slide>
+				<position>2</position>
+				<type>b</type>
+				<text>TOMORROW</text>
+				<background>#FF6600</background>
+			</slide>
+			<slide>
+				<position>3</position>
+				<type>a</type>
+				<text></text>
+				<background>http://www.walkerart.org/...gif</background>
+			</slide>
+		</state>
+		
+		<state type="three">
+			<slide>
+				<position>1</position>
+				<type>c</type>
+				<text>
+<![CDATA[Line 1 
+Line 2 
+Line 3 
+LINE 4
+]]>
+				</text>
+				<background>#8aa800</background>
+			</slide>
+			<slide>
+				<position>2</position>
+				<type>b</type>
+				<text>TOMORROW</text>
+				<background>#FF6600</background>
+			</slide>
+			<slide>
+				<position>3</position>
+				<type>a</type>
+				<text></text>
+				<background>http://www.walkerart.org/...jpg</background>
+			</slide>
+		</state>
+		
+	</views>
+</cinema>

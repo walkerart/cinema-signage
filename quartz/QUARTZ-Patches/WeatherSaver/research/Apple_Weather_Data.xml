@@ -1,0 +1,597 @@
+<?xml version="1.0" ?>
+
+<adc_Database>
+
+	<WatchWarnAreas zone="NYZ049" county="NYC093"/>
+	<GmtDiff DayLightSavings="1" >
+		-5
+	</GmtDiff>
+	<CurrentConditions>
+		<City>
+			Schenectady
+		</City>
+		<State>
+			NY
+		</State>
+		<DaylightSavingsActive></DaylightSavingsActive>
+		<Time>
+			13:34
+		</Time>
+		<Pressure state="Decreasing">
+			29.72
+		</Pressure>
+		<Temperature>
+			72
+		</Temperature>
+		<RealFeel>
+			76
+		</RealFeel>
+		<Humidity>88%</Humidity>
+		<WeatherText>
+			LIGHT RAIN
+		</WeatherText>
+		<WeatherIcon>
+			12
+		</WeatherIcon>
+		<WindSpeed>
+			6
+		</WindSpeed>
+		<WindDirection>
+			NE
+		</WindDirection>
+		<Visibility>
+			9
+		</Visibility>
+		<Precip>
+			0.00
+		</Precip>
+		<UVIndex>
+			1
+		</UVIndex>
+		<Copyright>AccuWeather, Inc.</Copyright>
+	</CurrentConditions>
+	<AirAndPollen>
+		<Tree>L(7)</Tree>
+		<Weed>N(0)</Weed>
+		<Grass>L(2)</Grass>
+		<Mold>M(1700)</Mold>
+		<AirQuality>G(48)</AirQuality>
+		<AirQualityType>
+			1
+		</AirQualityType>
+	</AirAndPollen>
+	<Planets>
+		<Sun rise="5:37" set="20:27"/>
+<Moon rise="2:35" set="19:12"/>
+<Mercury rise="5:26" set="19:42"/>
+<Venus rise="3:36" set="18:48"/>
+<Mars rise="8:13" set="21:57"/>
+<Jupiter rise="14:14" set="0:38"/>
+<Saturn rise="6:46" set="21:11"/>
+<Uranus rise="22:22" set="9:38"/>
+<Neptune rise="21:17" set="7:28"/>
+<Pluto rise="17:31" set="3:38"/>
+
+	</Planets>
+	<Moon>
+		
+		<Phase date="7/22/2006" text="">
+			25
+		</Phase>
+		
+		<Phase date="7/23/2006" text="">
+			26
+		</Phase>
+		
+		<Phase date="7/24/2006" text="">
+			27
+		</Phase>
+		
+		<Phase date="7/25/2006" text="New">
+			1
+		</Phase>
+		
+		<Phase date="7/26/2006" text="">
+			0
+		</Phase>
+		
+		<Phase date="7/27/2006" text="">
+			1
+		</Phase>
+		
+		<Phase date="7/28/2006" text="">
+			2
+		</Phase>
+		
+		<Phase date="7/29/2006" text="">
+			3
+		</Phase>
+		
+		<Phase date="7/30/2006" text="">
+			4
+		</Phase>
+		
+		<Phase date="7/31/2006" text="">
+			5
+		</Phase>
+		
+		<Phase date="8/1/2006" text="">
+			6
+		</Phase>
+		
+		<Phase date="8/2/2006" text="First">
+			7
+		</Phase>
+		
+		<Phase date="8/3/2006" text="">
+			8
+		</Phase>
+		
+		<Phase date="8/4/2006" text="">
+			9
+		</Phase>
+		
+		<Phase date="8/5/2006" text="">
+			10
+		</Phase>
+		
+		<Phase date="8/6/2006" text="">
+			11
+		</Phase>
+		
+		<Phase date="8/7/2006" text="">
+			12
+		</Phase>
+		
+		<Phase date="8/8/2006" text="">
+			13
+		</Phase>
+		
+		<Phase date="8/9/2006" text="Full">
+			14
+		</Phase>
+		
+		<Phase date="8/10/2006" text="">
+			15
+		</Phase>
+		
+		<Phase date="8/11/2006" text="">
+			16
+		</Phase>
+		
+		<Phase date="8/12/2006" text="">
+			17
+		</Phase>
+		
+		<Phase date="8/13/2006" text="">
+			18
+		</Phase>
+		
+		<Phase date="8/14/2006" text="">
+			19
+		</Phase>
+		
+		<Phase date="8/15/2006" text="">
+			20
+		</Phase>
+		
+		<Phase date="8/16/2006" text="Last">
+			21
+		</Phase>
+		
+		<Phase date="8/17/2006" text="">
+			22
+		</Phase>
+		
+		<Phase date="8/18/2006" text="">
+			23
+		</Phase>
+		
+		<Phase date="8/19/2006" text="">
+			24
+		</Phase>
+		
+		<Phase date="8/20/2006" text="">
+			25
+		</Phase>
+		
+		<Phase date="8/21/2006" text="">
+			26
+		</Phase>
+		
+		<Phase date="8/22/2006" text="">
+			27
+		</Phase>
+		
+	</Moon>
+	<Forecast>
+		<UFDB>
+			
+		</UFDB>
+		
+		<day number="1">
+			<ObsDate>
+				7/22/2006
+			</ObsDate>
+			<DayCode>
+				Saturday
+			</DayCode>
+			<TXT_Short>
+				Heavy rain and a thunderstorm
+			</TXT_Short>
+			<TXT_Long>
+				Periods of rain, some heavy, and a thunderstorm; humid
+			</TXT_Long>
+			<WeatherIcon>
+				18
+			</WeatherIcon>
+			<High_Temperature>
+				75
+			</High_Temperature>
+			<Low_Temperature>
+				64
+			</Low_Temperature>
+			<Real_Feel_High>
+				79
+			</Real_Feel_High>
+			<Real_Feel_Low>
+				63
+			</Real_Feel_Low>
+			<WindSpeed>
+				5
+			</WindSpeed>
+			<WindDirection>
+				NE
+			</WindDirection>
+			<WindGust>
+				14
+			</WindGust>
+			<Max_UV>
+				3
+			</Max_UV>
+			<Rain_Amount>
+				1.17
+			</Rain_Amount>
+			<Snow_Amount>
+				0.00
+			</Snow_Amount>
+			<Precip_Amount>
+				1.17
+			</Precip_Amount>
+			<TStorm_Prob>
+				31
+			</TStorm_Prob>
+		</day>
+		
+		<day number="2">
+			<ObsDate>
+				7/23/2006
+			</ObsDate>
+			<DayCode>
+				Sunday
+			</DayCode>
+			<TXT_Short>
+				A couple of showers
+			</TXT_Short>
+			<TXT_Long>
+				A couple of showers; cloudy in the morning, then times of sun and clouds in the afternoon
+			</TXT_Long>
+			<WeatherIcon>
+				13
+			</WeatherIcon>
+			<High_Temperature>
+				74
+			</High_Temperature>
+			<Low_Temperature>
+				58
+			</Low_Temperature>
+			<Real_Feel_High>
+				76
+			</Real_Feel_High>
+			<Real_Feel_Low>
+				59
+			</Real_Feel_Low>
+			<WindSpeed>
+				7
+			</WindSpeed>
+			<WindDirection>
+				NW
+			</WindDirection>
+			<WindGust>
+				13
+			</WindGust>
+			<Max_UV>
+				4
+			</Max_UV>
+			<Rain_Amount>
+				0.16
+			</Rain_Amount>
+			<Snow_Amount>
+				0.00
+			</Snow_Amount>
+			<Precip_Amount>
+				0.16
+			</Precip_Amount>
+			<TStorm_Prob>
+				25
+			</TStorm_Prob>
+		</day>
+		
+		<day number="3">
+			<ObsDate>
+				7/24/2006
+			</ObsDate>
+			<DayCode>
+				Monday
+			</DayCode>
+			<TXT_Short>
+				Mostly sunny
+			</TXT_Short>
+			<TXT_Long>
+				Mostly sunny
+			</TXT_Long>
+			<WeatherIcon>
+				02
+			</WeatherIcon>
+			<High_Temperature>
+				86
+			</High_Temperature>
+			<Low_Temperature>
+				65
+			</Low_Temperature>
+			<Real_Feel_High>
+				87
+			</Real_Feel_High>
+			<Real_Feel_Low>
+				64
+			</Real_Feel_Low>
+			<WindSpeed>
+				7
+			</WindSpeed>
+			<WindDirection>
+				SW
+			</WindDirection>
+			<WindGust>
+				16
+			</WindGust>
+			<Max_UV>
+				7
+			</Max_UV>
+			<Rain_Amount>
+				0.00
+			</Rain_Amount>
+			<Snow_Amount>
+				0.00
+			</Snow_Amount>
+			<Precip_Amount>
+				0.00
+			</Precip_Amount>
+			<TStorm_Prob>
+				0
+			</TStorm_Prob>
+		</day>
+		
+		<day number="4">
+			<ObsDate>
+				7/25/2006
+			</ObsDate>
+			<DayCode>
+				Tuesday
+			</DayCode>
+			<TXT_Short>
+				Mostly sunny, warm and humid
+			</TXT_Short>
+			<TXT_Long>
+				Mostly sunny, warm and humid
+			</TXT_Long>
+			<WeatherIcon>
+				02
+			</WeatherIcon>
+			<High_Temperature>
+				86
+			</High_Temperature>
+			<Low_Temperature>
+				65
+			</Low_Temperature>
+			<Real_Feel_High>
+				84
+			</Real_Feel_High>
+			<Real_Feel_Low>
+				65
+			</Real_Feel_Low>
+			<WindSpeed>
+				12
+			</WindSpeed>
+			<WindDirection>
+				SSW
+			</WindDirection>
+			<WindGust>
+				25
+			</WindGust>
+			<Max_UV>
+				7
+			</Max_UV>
+			<Rain_Amount>
+				0.00
+			</Rain_Amount>
+			<Snow_Amount>
+				0.00
+			</Snow_Amount>
+			<Precip_Amount>
+				0.00
+			</Precip_Amount>
+			<TStorm_Prob>
+				23
+			</TStorm_Prob>
+		</day>
+		
+		<day number="5">
+			<ObsDate>
+				7/26/2006
+			</ObsDate>
+			<DayCode>
+				Wednesday
+			</DayCode>
+			<TXT_Short>
+				Some sun, a t-shower possible
+			</TXT_Short>
+			<TXT_Long>
+				Intervals of clouds and sunshine with a shower or thunderstorm possible; humid
+			</TXT_Long>
+			<WeatherIcon>
+				04
+			</WeatherIcon>
+			<High_Temperature>
+				87
+			</High_Temperature>
+			<Low_Temperature>
+				66
+			</Low_Temperature>
+			<Real_Feel_High>
+				87
+			</Real_Feel_High>
+			<Real_Feel_Low>
+				66
+			</Real_Feel_Low>
+			<WindSpeed>
+				9
+			</WindSpeed>
+			<WindDirection>
+				W
+			</WindDirection>
+			<WindGust>
+				18
+			</WindGust>
+			<Max_UV>
+				5
+			</Max_UV>
+			<Rain_Amount>
+				0.00
+			</Rain_Amount>
+			<Snow_Amount>
+				0.00
+			</Snow_Amount>
+			<Precip_Amount>
+				0.00
+			</Precip_Amount>
+			<TStorm_Prob>
+				25
+			</TStorm_Prob>
+		</day>
+		
+		<day number="6">
+			<ObsDate>
+				7/27/2006
+			</ObsDate>
+			<DayCode>
+				Thursday
+			</DayCode>
+			<TXT_Short>
+				Chance of a thundershower
+			</TXT_Short>
+			<TXT_Long>
+				Partly sunny with a thundershower possible
+			</TXT_Long>
+			<WeatherIcon>
+				04
+			</WeatherIcon>
+			<High_Temperature>
+				86
+			</High_Temperature>
+			<Low_Temperature>
+				65
+			</Low_Temperature>
+			<Real_Feel_High>
+				85
+			</Real_Feel_High>
+			<Real_Feel_Low>
+				65
+			</Real_Feel_Low>
+			<WindSpeed>
+				11
+			</WindSpeed>
+			<WindDirection>
+				SW
+			</WindDirection>
+			<WindGust>
+				22
+			</WindGust>
+			<Max_UV>
+				5
+			</Max_UV>
+			<Rain_Amount>
+				0.00
+			</Rain_Amount>
+			<Snow_Amount>
+				0.00
+			</Snow_Amount>
+			<Precip_Amount>
+				0.00
+			</Precip_Amount>
+			<TStorm_Prob>
+				25
+			</TStorm_Prob>
+		</day>
+		
+		<day number="7">
+			<ObsDate>
+				7/28/2006
+			</ObsDate>
+			<DayCode>
+				Friday
+			</DayCode>
+			<TXT_Short>
+				Thunderstorms possible
+			</TXT_Short>
+			<TXT_Long>
+				Mostly cloudy with a chance of showers and thunderstorms
+			</TXT_Long>
+			<WeatherIcon>
+				06
+			</WeatherIcon>
+			<High_Temperature>
+				84
+			</High_Temperature>
+			<Low_Temperature>
+				61
+			</Low_Temperature>
+			<Real_Feel_High>
+				83
+			</Real_Feel_High>
+			<Real_Feel_Low>
+				62
+			</Real_Feel_Low>
+			<WindSpeed>
+				8
+			</WindSpeed>
+			<WindDirection>
+				N
+			</WindDirection>
+			<WindGust>
+				16
+			</WindGust>
+			<Max_UV>
+				4
+			</Max_UV>
+			<Rain_Amount>
+				0.00
+			</Rain_Amount>
+			<Snow_Amount>
+				0.00
+			</Snow_Amount>
+			<Precip_Amount>
+				0.00
+			</Precip_Amount>
+			<TStorm_Prob>
+				25
+			</TStorm_Prob>
+		</day>
+		
+		
+	</Forecast>
+	
+	
+	<Copyright>Copyright 2006 AccuWeather.com </Copyright>
+	<Use>Apple Widget</Use>
+	<Redistribution>Redistribution Prohibited.</Redistribution>
+</adc_Database>
