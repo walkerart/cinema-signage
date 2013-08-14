@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6A74C7DA16FB745000143C7E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A74C7D916FB745000143C7E /* Cocoa.framework */; };
+		6A74C7E416FB745000143C7E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6A74C7E216FB745000143C7E /* InfoPlist.strings */; };
+		6A74C7E616FB745000143C7E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A74C7E516FB745000143C7E /* main.m */; };
+		6A74C7EA16FB745000143C7E /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 6A74C7E816FB745000143C7E /* Credits.rtf */; };
+		6A74C7ED16FB745000143C7E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A74C7EC16FB745000143C7E /* AppDelegate.m */; };
+		6A74C7F016FB745000143C7E /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6A74C7EE16FB745000143C7E /* MainMenu.xib */; };
+		6A74C7F816FB745100143C7E /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A74C7F716FB745100143C7E /* SenTestingKit.framework */; };
+		6A74C7F916FB745100143C7E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A74C7D916FB745000143C7E /* Cocoa.framework */; };
+		6A74C80116FB745100143C7E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6A74C7FF16FB745100143C7E /* InfoPlist.strings */; };
+		6A74C80416FB745100143C7E /* Cinema_WallTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A74C80316FB745100143C7E /* Cinema_WallTests.m */; };
+		6A74C80E16FB745C00143C7E /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A74C80D16FB745C00143C7E /* Quartz.framework */; };
+		6AAEE64016FB89BC00E7CE2D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AAEE63F16FB89BC00E7CE2D /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6A74C7FA16FB745100143C7E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6A74C7CC16FB745000143C7E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A74C7D416FB745000143C7E;
+			remoteInfo = "Cinema Wall";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6A74C7D516FB745000143C7E /* Cinema Wall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cinema Wall.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A74C7D916FB745000143C7E /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		6A74C7DC16FB745000143C7E /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		6A74C7DD16FB745000143C7E /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		6A74C7DE16FB745000143C7E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6A74C7E116FB745000143C7E /* Cinema Wall-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Cinema Wall-Info.plist"; sourceTree = "<group>"; };
+		6A74C7E316FB745000143C7E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6A74C7E516FB745000143C7E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6A74C7E716FB745000143C7E /* Cinema Wall-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Cinema Wall-Prefix.pch"; sourceTree = "<group>"; };
+		6A74C7E916FB745000143C7E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		6A74C7EB16FB745000143C7E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6A74C7EC16FB745000143C7E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6A74C7EF16FB745000143C7E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		6A74C7F616FB745100143C7E /* Cinema WallTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cinema WallTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A74C7F716FB745100143C7E /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		6A74C7FE16FB745100143C7E /* Cinema WallTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Cinema WallTests-Info.plist"; sourceTree = "<group>"; };
+		6A74C80016FB745100143C7E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6A74C80216FB745100143C7E /* Cinema_WallTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Cinema_WallTests.h; sourceTree = "<group>"; };
+		6A74C80316FB745100143C7E /* Cinema_WallTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Cinema_WallTests.m; sourceTree = "<group>"; };
+		6A74C80D16FB745C00143C7E /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = System/Library/Frameworks/Quartz.framework; sourceTree = SDKROOT; };
+		6AAEE63F16FB89BC00E7CE2D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6A74C7D216FB745000143C7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AAEE64016FB89BC00E7CE2D /* QuartzCore.framework in Frameworks */,
+				6A74C80E16FB745C00143C7E /* Quartz.framework in Frameworks */,
+				6A74C7DA16FB745000143C7E /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A74C7F216FB745100143C7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A74C7F816FB745100143C7E /* SenTestingKit.framework in Frameworks */,
+				6A74C7F916FB745100143C7E /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6A74C7CA16FB745000143C7E = {
+			isa = PBXGroup;
+			children = (
+				6AAEE63F16FB89BC00E7CE2D /* QuartzCore.framework */,
+				6A74C80D16FB745C00143C7E /* Quartz.framework */,
+				6A74C7DF16FB745000143C7E /* Cinema Wall */,
+				6A74C7FC16FB745100143C7E /* Cinema WallTests */,
+				6A74C7D816FB745000143C7E /* Frameworks */,
+				6A74C7D616FB745000143C7E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6A74C7D616FB745000143C7E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6A74C7D516FB745000143C7E /* Cinema Wall.app */,
+				6A74C7F616FB745100143C7E /* Cinema WallTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6A74C7D816FB745000143C7E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6A74C7D916FB745000143C7E /* Cocoa.framework */,
+				6A74C7F716FB745100143C7E /* SenTestingKit.framework */,
+				6A74C7DB16FB745000143C7E /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6A74C7DB16FB745000143C7E /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6A74C7DC16FB745000143C7E /* AppKit.framework */,
+				6A74C7DD16FB745000143C7E /* CoreData.framework */,
+				6A74C7DE16FB745000143C7E /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		6A74C7DF16FB745000143C7E /* Cinema Wall */ = {
+			isa = PBXGroup;
+			children = (
+				6A74C7EB16FB745000143C7E /* AppDelegate.h */,
+				6A74C7EC16FB745000143C7E /* AppDelegate.m */,
+				6A74C7EE16FB745000143C7E /* MainMenu.xib */,
+				6A74C7E016FB745000143C7E /* Supporting Files */,
+			);
+			path = "Cinema Wall";
+			sourceTree = "<group>";
+		};
+		6A74C7E016FB745000143C7E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6A74C7E116FB745000143C7E /* Cinema Wall-Info.plist */,
+				6A74C7E216FB745000143C7E /* InfoPlist.strings */,
+				6A74C7E516FB745000143C7E /* main.m */,
+				6A74C7E716FB745000143C7E /* Cinema Wall-Prefix.pch */,
+				6A74C7E816FB745000143C7E /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6A74C7FC16FB745100143C7E /* Cinema WallTests */ = {
+			isa = PBXGroup;
+			children = (
+				6A74C80216FB745100143C7E /* Cinema_WallTests.h */,
+				6A74C80316FB745100143C7E /* Cinema_WallTests.m */,
+				6A74C7FD16FB745100143C7E /* Supporting Files */,
+			);
+			path = "Cinema WallTests";
+			sourceTree = "<group>";
+		};
+		6A74C7FD16FB745100143C7E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6A74C7FE16FB745100143C7E /* Cinema WallTests-Info.plist */,
+				6A74C7FF16FB745100143C7E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6A74C7D416FB745000143C7E /* Cinema Wall */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A74C80716FB745100143C7E /* Build configuration list for PBXNativeTarget "Cinema Wall" */;
+			buildPhases = (
+				6A74C7D116FB745000143C7E /* Sources */,
+				6A74C7D216FB745000143C7E /* Frameworks */,
+				6A74C7D316FB745000143C7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Cinema Wall";
+			productName = "Cinema Wall";
+			productReference = 6A74C7D516FB745000143C7E /* Cinema Wall.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6A74C7F516FB745100143C7E /* Cinema WallTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A74C80A16FB745100143C7E /* Build configuration list for PBXNativeTarget "Cinema WallTests" */;
+			buildPhases = (
+				6A74C7F116FB745100143C7E /* Sources */,
+				6A74C7F216FB745100143C7E /* Frameworks */,
+				6A74C7F316FB745100143C7E /* Resources */,
+				6A74C7F416FB745100143C7E /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6A74C7FB16FB745100143C7E /* PBXTargetDependency */,
+			);
+			name = "Cinema WallTests";
+			productName = "Cinema WallTests";
+			productReference = 6A74C7F616FB745100143C7E /* Cinema WallTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6A74C7CC16FB745000143C7E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "AJ Warnick";
+			};
+			buildConfigurationList = 6A74C7CF16FB745000143C7E /* Build configuration list for PBXProject "Cinema Wall" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6A74C7CA16FB745000143C7E;
+			productRefGroup = 6A74C7D616FB745000143C7E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6A74C7D416FB745000143C7E /* Cinema Wall */,
+				6A74C7F516FB745100143C7E /* Cinema WallTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6A74C7D316FB745000143C7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A74C7E416FB745000143C7E /* InfoPlist.strings in Resources */,
+				6A74C7EA16FB745000143C7E /* Credits.rtf in Resources */,
+				6A74C7F016FB745000143C7E /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A74C7F316FB745100143C7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A74C80116FB745100143C7E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6A74C7F416FB745100143C7E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6A74C7D116FB745000143C7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A74C7E616FB745000143C7E /* main.m in Sources */,
+				6A74C7ED16FB745000143C7E /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A74C7F116FB745100143C7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A74C80416FB745100143C7E /* Cinema_WallTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6A74C7FB16FB745100143C7E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6A74C7D416FB745000143C7E /* Cinema Wall */;
+			targetProxy = 6A74C7FA16FB745100143C7E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6A74C7E216FB745000143C7E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A74C7E316FB745000143C7E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6A74C7E816FB745000143C7E /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A74C7E916FB745000143C7E /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		6A74C7EE16FB745000143C7E /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A74C7EF16FB745000143C7E /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		6A74C7FF16FB745100143C7E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A74C80016FB745100143C7E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6A74C80516FB745100143C7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		6A74C80616FB745100143C7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		6A74C80816FB745100143C7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Cinema Wall/Cinema Wall-Prefix.pch";
+				INFOPLIST_FILE = "Cinema Wall/Cinema Wall-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6A74C80916FB745100143C7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Cinema Wall/Cinema Wall-Prefix.pch";
+				INFOPLIST_FILE = "Cinema Wall/Cinema Wall-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		6A74C80B16FB745100143C7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Cinema Wall.app/Contents/MacOS/Cinema Wall";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Cinema Wall/Cinema Wall-Prefix.pch";
+				INFOPLIST_FILE = "Cinema WallTests/Cinema WallTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		6A74C80C16FB745100143C7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Cinema Wall.app/Contents/MacOS/Cinema Wall";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Cinema Wall/Cinema Wall-Prefix.pch";
+				INFOPLIST_FILE = "Cinema WallTests/Cinema WallTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6A74C7CF16FB745000143C7E /* Build configuration list for PBXProject "Cinema Wall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A74C80516FB745100143C7E /* Debug */,
+				6A74C80616FB745100143C7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A74C80716FB745100143C7E /* Build configuration list for PBXNativeTarget "Cinema Wall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A74C80816FB745100143C7E /* Debug */,
+				6A74C80916FB745100143C7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A74C80A16FB745100143C7E /* Build configuration list for PBXNativeTarget "Cinema WallTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A74C80B16FB745100143C7E /* Debug */,
+				6A74C80C16FB745100143C7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6A74C7CC16FB745000143C7E /* Project object */;
+}
